@@ -1,0 +1,225 @@
+name: eldaftar_app
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  flutter_screenutil: ^5.9.0
+  smooth_page_indicator: ^1.1.0
+  flutter_svg: ^2.0.10+1
+  intl_phone_field: ^3.2.0
+  otp_text_field: ^1.1.3
+  flutter_native_splash: ^2.3.7
+  google_maps_flutter: ^2.2.8
+  dotted_border: ^2.1.0
+  google_nav_bar: ^5.0.6
+  data_table_2: ^2.5.12
+  flutter_expandable_fab: ^2.0.0
+  flutter_speed_dial: ^7.0.0
+ 
+  
+  
+  
+  
+
+
+
+
+
+flutter_native_splash:
+  android: true
+  ios: true
+  image: "Images/Splash/SPLASH2.png"
+  color: "#FFFFFF"
+  
+
+
+
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - Images/Splash/Splash.png
+    - Images/Onboarding_screen/Onboarding1.png
+    - Images/Onboarding_screen/Onboarding2.png
+    - Images/Onboarding_screen/Onboarding3.png
+    - Images/Onboarding_screen/Onboarding4.png
+    - Images/Login/apple.svg
+    - Images/Login/Facebook.svg
+    - Images/Login/google.svg
+    - Images/Login/eye (1).png
+    - Images/Register/Folder_Upload.svg
+    - Images/HomePage/Bell.svg
+    - Images/HomePage/star.png
+    - Images/HomePage/File_Document.svg
+    - Images/HomePage/Shopping_Bag_02.svg
+    - Images/HomePage/Discount/Rectangle 1.png
+    - Images/HomePage/Discount/Rectangle 2.png
+    - Images/HomePage/Discount/Rectangle 3.png
+    - Images/HomePage/Discount/Rectangle 4.png
+    - Images/HomePage/Discount/Vector.svg
+    - Images/HomePage/Chat_Circle_Dots.png
+    - Images/HomePage/notification/Bell.svg
+    - Images/HomePage/Shops/Qr_Code.svg
+    - Images/HomePage/Shops/my requests/skoda.png
+    - Images/HomePage/Shops/my requests/apple.png
+    - Images/HomePage/Shops/my requests/Shield.svg
+    - Images/HomePage/Shops/my requests/Map_Pin.svg
+    - Images/HomePage/Stores/Apple Store.png
+    - Images/HomePage/Stores/HUAWEI Store.png
+    - Images/HomePage/Stores/starr.svg
+    - Images/HomePage/Stores/staroutline.svg
+    - Images/HomePage/Stores/Bulb.svg
+    - Images/HomePage/Stores/BMW Store.png
+    - Images/HomePage/Stores/SANDWICHES.png
+    - Images/HomePage/Stores/Makeup Store.png
+    - Images/HomePage/Stores/Adidas.png
+    - Images/HomePage/Stores/Filter.svg
+    - Images/NavBar/House_01.svg
+    - Images/NavBar/send.svg
+    - Images/NavBar/Heart.svg
+    - Images/NavBar/Settings.svg
+    - Images/NavBar/House_BOLD.svg
+    - Images/NavBar/send.BOLD.svg
+    - Images/NavBar/Heart.BOLD.svg
+    - Images/NavBar/Settings.BOLD.svg
+    - Images/NavBar/FAB/Vector.png
+    - Images/NavBar/FAB/Vector.svg
+    - Images/HomePage/the shop/Rectangle 39 (8).png
+    - Images/HomePage/the shop/unsplash_xkArbdUcUeE.png
+    - Images/HomePage/the shop/C-card.svg
+    - Images/HomePage/the shop/calendar.svg
+    - Images/HomePage/the shop/flag.svg
+    - Images/HomePage/the shop/ICONcall.svg
+    - Images/HomePage/the shop/location.svg
+    - Images/HomePage/the shop/Global.svg
+    - Images/HomePage/the shop/request num.svg
+    - Images/HomePage/Shops/Arrow_Reload_02.svg
+    - Images/NavBar/Payment request/star.outline.svg
+    - Images/NavBar/Payment request/Shield Check.svg
+    - Images/NavBar/Payment request/Shield Warning.svg
+    - Images/NavBar/Payment request/ex.svg
+    - Images/NavBar/Payment request/new request/Shield Star.svg
+    - Images/NavBar/Payment request/new request/heart.svg
+    - Images/NavBar/Payment request/new request/alarm.svg
+    - Images/NavBar/Payment request/new request/notification.white.svg
+    - Images/NavBar/Payment request/Shield Warning.svg
+    - Images/NavBar/Payment request/new request/Shield Warning.svg
+    - Images/NavBar/Payment request/new request/Shield Check.svg
+    - Images/NavBar/Payment request/new request/Shield Cross.svg
+    - Images/NavBar/Payment request/my request/BMW Store.png
+    - Images/NavBar/Payment request/my request/SANDWICHES.png
+    - Images/NavBar/Payment request/my request/McDonalds.png
+    - Images/NavBar/Payment request/my request/Adidas.png
+    - Images/NavBar/Payment request/my request/Makeup Store.png
+    - Images/NavBar/Payment request/my request/Cam Store.png
+    - Images/NavBar/Payment request/new request/88932-refreshx.png
+    - Images/NavBar/Payment request/Receiving Payment request/Receiving Payment request.png
+    - Images/NavBar/Payment request/Receiving Payment request/Stop_Sign.svg
+    - Images/NavBar/Payment request/Receiving Payment request/Edit_Pencil_Line_01.svg
+    - Images/NavBar/Payment request/Customer follow up/vector..eye.svg
+    - Images/NavBar/Payment request/Customer follow up/message.svg
+    - Images/HomePage/Invoices/Carrefour Store.png
+    - Images/HomePage/Invoices/BMW Store.png
+    - Images/HomePage/Invoices/HUAWEI Store.png
+    - Images/HomePage/Invoices/BMW Store2.png
+    - Images/HomePage/Invoices/HUAWEI Store2.png
+    - Images/HomePage/Invoices/BMW Store3.png
+    - Images/HomePage/Invoices/Vector.svg
+    - Images/HomePage/Invoices/d.message.svg
+    - Images/HomePage/Pay Now/QR.png
+    - Images/HomePage/Pay Now/System.png
+    - Images/HomePage/purchase/File_Document.svg
+    - Images/HomePage/purchase/Label.svg
+    - Images/HomePage/purchase/submit-application-successfully.png
+    - Images/HomePage/loans/List_Unordered.svg
+    - Images/HomePage/loans/unsplash_xkArbdUcUeE (1).png
+    - Images/HomePage/loans/Cloud_Upload.svg
+    - Images/HomePage/Chat/dog.png
+    - Images/HomePage/Chat/Check_All.svg
+    - Images/HomePage/Chat/Check_All..seen.svg
+    - Images/HomePage/Chat/Navigation.svg
+    - Images/HomePage/Chat/Rectangle 357.png
+    - Images/HomePage/Chat/Rectangle 357 (1).png
+    - Images/NavBar/Favorite/Rectangle 39 (21).png
+
+  
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
