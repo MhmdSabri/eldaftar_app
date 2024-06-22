@@ -47,6 +47,7 @@ dependencies:
   data_table_2: ^2.5.12
   flutter_expandable_fab: ^2.0.0
   flutter_speed_dial: ^7.0.0
+  intl: ^0.19.0
  
   
   
@@ -195,6 +196,42 @@ flutter:
     - Images/HomePage/Chat/Rectangle 357.png
     - Images/HomePage/Chat/Rectangle 357 (1).png
     - Images/NavBar/Favorite/Rectangle 39 (21).png
+    - Images/HomePage/Offers/Vector.svg
+    - Images/HomePage/Offers/Rectangle 1.png
+    - Images/HomePage/Offers/Rectangle 2.png
+    - Images/HomePage/Offers/Calendar_Days.svg
+    - Images/HomePage/Offers/Arrow_Reload_02.svg
+    - Images/HomePage/Offers/Wavy_Check.svg
+    - Images/NavBar/Settings/User_01.svg
+    - Images/NavBar/Settings/Building_01.svg
+    - Images/NavBar/Settings/Lock.svg
+    - Images/NavBar/Settings/Bell_Ring.svg
+    - Images/NavBar/Settings/Alarm.svg
+    - Images/NavBar/Settings/Calendar_Week.svg
+    - Images/NavBar/Settings/Trending_Up.svg
+    - Images/NavBar/Settings/Circle_Warning.svg
+    - Images/NavBar/Settings/Cookie.svg
+    - Images/NavBar/Settings/Phone.svg
+    - Images/NavBar/Settings/Share_Android.svg
+    - Images/NavBar/Settings/User_Card_ID.svg
+    - Images/NavBar/Settings/Trash_Empty.svg
+    - Images/NavBar/Settings/Log_Out.svg
+    - Images/NavBar/Settings/Bell_Add.svg
+    - Images/NavBar/Settings/More_Grid_Small.svg
+    - Images/NavBar/Settings/Statistics/File_Document.svg
+    - Images/NavBar/Settings/Statistics/Shopping_Cart_02.svg
+    - Images/NavBar/Settings/Statistics/Vector 13green.svg
+    - Images/NavBar/Settings/Statistics/Vector 12orange.svg
+    - Images/NavBar/Settings/Statistics/User_02.svg
+    - Images/NavBar/Settings/Statistics/Shopping_Bag_02.svg
+    - Images/NavBar/Settings/connect with us/Phone.svg
+    - Images/NavBar/Settings/language/Text_Align_Left.svg
+    - Images/NavBar/Settings/language/Text_Align_Right.svg
+    - Images/NavBar/Settings/language/Text_Align_Left_black.svg
+    - Images/NavBar/Settings/language/Text_Align_Right_colored.svg
+    - Images/NavBar/Settings/delete account/133747-send-email.jpg
+    - Images/NavBar/Settings/alert times/Add_Minus_Square.svg
+    - Images/NavBar/Settings/alert times/Add_Plus_Square.svg
 
   
 

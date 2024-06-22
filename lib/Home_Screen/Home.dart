@@ -12,6 +12,7 @@ import '../Receive_The_Purchase_List/Receive_The_Purchase_List.dart';
 import '../Receiving_Payment_Request/Receiving_Payment_Request.dart';
 import 'Chat_Screen/Chat_Screen.dart';
 import 'Notifications_Screen.dart';
+import 'Offers_Screen/Offers_Screen.dart';
 import 'Shops_Screen.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -245,14 +246,23 @@ class _HomeScreenState extends State<HomeScreen> {
                     fontWeight: FontWeight.w500,
                   ),
                 ),
-                Text(
-                  'See All',
-                  textAlign: TextAlign.center,
-                  style: TextStyle(
-                    color: const Color(0xFF5A5D61),
-                    fontSize: 10.5.sp,
-                    fontFamily: 'Poppins',
-                    fontWeight: FontWeight.w400,
+                GestureDetector(
+                  onTap: () {
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (BuildContext context) =>
+                                const OffersScreen()));
+                  },
+                  child: Text(
+                    'See All',
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      color: const Color(0xFF5A5D61),
+                      fontSize: 10.5.sp,
+                      fontFamily: 'Poppins',
+                      fontWeight: FontWeight.w400,
+                    ),
                   ),
                 ),
               ],

@@ -188,7 +188,7 @@ class TaxRegistrationScreen extends StatelessWidget {
                   radius: Radius.circular(4.r),
                   color: const Color(0xFFD71CDB),
                   strokeWidth: 1.2.w,
-                  dashPattern: const [7, 5],
+                  dashPattern: const [5, 5],
                   child: Container(
                     width: double.infinity,
                     height: 38.h,

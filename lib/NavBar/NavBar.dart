@@ -3,14 +3,16 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
 // import 'package:google_nav_bar/google_nav_bar.dart';
 
-import '../Favorite_Screen/Favorite_Screen.dart';
-import '../Home_Screen/All_Shops.dart';
+import 'Favorite_Screen/Favorite_Screen.dart';
+
 import '../Home_Screen/Home.dart';
 import '../Loans _Screens/Add_Loan_Details_Screen.dart';
 import '../Loans _Screens/Debtor_Screen.dart';
 import '../Payment_Request/My_Requests_Screen.dart';
 // import '../Payment_Request/Payment_Request_3.dart';
 import 'package:flutter_speed_dial/flutter_speed_dial.dart';
+
+import 'Settings_Screen/Settings_Screen.dart';
 
 class NavBarScreen extends StatefulWidget {
   const NavBarScreen({super.key});
@@ -28,7 +30,7 @@ class _NavBarScreenState extends State<NavBarScreen> {
     const HomeScreen(),
     const MyRequestsScreen(),
     const FavoriteScreen(),
-    const AllShopsScreen(),
+    const SettingsScreen(),
   ];
   @override
   Widget build(BuildContext context) {
@@ -43,7 +45,7 @@ class _NavBarScreenState extends State<NavBarScreen> {
         tooltip: 'Speed Dial',
         heroTag: 'speed-dial-hero-tag',
         backgroundColor: const Color(0xFF6E34B8),
-        // foregroundColor: Colors.black,
+
         elevation: 2,
         shape: OutlineInputBorder(
           borderRadius: BorderRadius.all(Radius.circular(15.w)),
